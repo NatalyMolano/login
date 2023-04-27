@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  background-image: url("https://i.pinimg.com/originals/1f/8d/20/1f8d20a98cf9eae005d230c6a1050ab9.gif");
+  width: 900px ;
+  background-size: 1400px 800px;
+}
+
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+form{
+ background-color: white;
+  }
+.form-signin {
+  
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
